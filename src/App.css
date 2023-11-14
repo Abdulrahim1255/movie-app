@@ -36,3 +36,40 @@
     transform: rotate(360deg);
   }
 }
+.movie-search-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.search-input {
+  padding: 10px;
+  margin-right: 10px;
+  width: 60%;
+}
+
+.search-button {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.error-message {
+  color: red;
+}
+
+.movie-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.movie-item {
+  border: 1px solid #ccc;
+  margin: 10px;
+  padding: 10px;
+  max-width: 200px;
+}
+
+.poster-image {
+  max-width: 100%;
+  height: auto;
+}
